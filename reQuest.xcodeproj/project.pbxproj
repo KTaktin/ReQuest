@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973E5BE31A223791002BC4FC /* cage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 973E5BE11A223791002BC4FC /* cage.jpg */; };
+		973E5BE41A223791002BC4FC /* cageLarge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 973E5BE21A223791002BC4FC /* cageLarge.jpg */; };
+		9750F8191A21EC7100BE5782 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F8181A21EC7100BE5782 /* Firebase.framework */; };
+		9750F81B1A21EEEA00BE5782 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F81A1A21EEEA00BE5782 /* libicucore.dylib */; };
+		9750F81D1A21EEFA00BE5782 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F81C1A21EEFA00BE5782 /* libc++.dylib */; };
+		9750F81F1A21EF0600BE5782 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F81E1A21EF0600BE5782 /* CFNetwork.framework */; };
+		9750F8211A21EF1300BE5782 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F8201A21EF1300BE5782 /* Security.framework */; };
+		9750F8231A21EF1E00BE5782 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9750F8221A21EF1E00BE5782 /* SystemConfiguration.framework */; };
 		979169091A21216F00F97232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169081A21216F00F97232 /* main.m */; };
 		9791690C1A21216F00F97232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9791690B1A21216F00F97232 /* AppDelegate.m */; };
 		9791690F1A21216F00F97232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9791690E1A21216F00F97232 /* ViewController.m */; };
@@ -14,6 +22,17 @@
 		979169141A21216F00F97232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979169131A21216F00F97232 /* Images.xcassets */; };
 		979169171A21216F00F97232 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 979169151A21216F00F97232 /* LaunchScreen.xib */; };
 		979169231A21216F00F97232 /* reQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169221A21216F00F97232 /* reQuestTests.m */; };
+		9791692E1A21316000F97232 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9791692D1A21316000F97232 /* UsersViewController.m */; };
+		979169311A21317B00F97232 /* ReQuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169301A21317B00F97232 /* ReQuestViewController.m */; };
+		979169341A213DE500F97232 /* QuestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169331A213DE500F97232 /* QuestCell.m */; };
+		979169371A21474A00F97232 /* Quest.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169361A21474A00F97232 /* Quest.m */; };
+		9791693A1A21513600F97232 /* QuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 979169391A21513600F97232 /* QuestViewController.m */; };
+		9791693C1A21691600F97232 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9791693B1A21691600F97232 /* MapKit.framework */; };
+		979169421A2176FB00F97232 /* mike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9791693E1A2176FB00F97232 /* mike.jpg */; };
+		979169431A2176FB00F97232 /* andrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9791693F1A2176FB00F97232 /* andrew.jpg */; };
+		979169471A21777700F97232 /* vinu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979169451A21777700F97232 /* vinu.jpg */; };
+		979169481A21777700F97232 /* alex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979169461A21777700F97232 /* alex.jpg */; };
+		9791694A1A217C1D00F97232 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979169491A217C1D00F97232 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		973E5BE11A223791002BC4FC /* cage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cage.jpg; sourceTree = "<group>"; };
+		973E5BE21A223791002BC4FC /* cageLarge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cageLarge.jpg; sourceTree = "<group>"; };
+		9750F8181A21EC7100BE5782 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../../Downloads/Firebase.framework; sourceTree = "<group>"; };
+		9750F81A1A21EEEA00BE5782 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		9750F81C1A21EEFA00BE5782 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		9750F81E1A21EF0600BE5782 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9750F8201A21EF1300BE5782 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9750F8221A21EF1E00BE5782 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		979169031A21216F00F97232 /* reQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979169071A21216F00F97232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		979169081A21216F00F97232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +67,22 @@
 		9791691C1A21216F00F97232 /* reQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		979169211A21216F00F97232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		979169221A21216F00F97232 /* reQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reQuestTests.m; sourceTree = "<group>"; };
+		9791692C1A21316000F97232 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		9791692D1A21316000F97232 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		9791692F1A21317B00F97232 /* ReQuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReQuestViewController.h; sourceTree = "<group>"; };
+		979169301A21317B00F97232 /* ReQuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReQuestViewController.m; sourceTree = "<group>"; };
+		979169321A213DE500F97232 /* QuestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestCell.h; sourceTree = "<group>"; };
+		979169331A213DE500F97232 /* QuestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestCell.m; sourceTree = "<group>"; };
+		979169351A21474A00F97232 /* Quest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quest.h; sourceTree = "<group>"; };
+		979169361A21474A00F97232 /* Quest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quest.m; sourceTree = "<group>"; };
+		979169381A21513600F97232 /* QuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestViewController.h; sourceTree = "<group>"; };
+		979169391A21513600F97232 /* QuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestViewController.m; sourceTree = "<group>"; };
+		9791693B1A21691600F97232 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9791693E1A2176FB00F97232 /* mike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mike.jpg; sourceTree = "<group>"; };
+		9791693F1A2176FB00F97232 /* andrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = andrew.jpg; sourceTree = "<group>"; };
+		979169451A21777700F97232 /* vinu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vinu.jpg; sourceTree = "<group>"; };
+		979169461A21777700F97232 /* alex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alex.jpg; sourceTree = "<group>"; };
+		979169491A217C1D00F97232 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9750F8231A21EF1E00BE5782 /* SystemConfiguration.framework in Frameworks */,
+				9750F8211A21EF1300BE5782 /* Security.framework in Frameworks */,
+				9750F81F1A21EF0600BE5782 /* CFNetwork.framework in Frameworks */,
+				9750F81D1A21EEFA00BE5782 /* libc++.dylib in Frameworks */,
+				9750F81B1A21EEEA00BE5782 /* libicucore.dylib in Frameworks */,
+				9791694A1A217C1D00F97232 /* CoreLocation.framework in Frameworks */,
+				9791693C1A21691600F97232 /* MapKit.framework in Frameworks */,
+				9750F8191A21EC7100BE5782 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,14 @@
 		979168FA1A21216F00F97232 = {
 			isa = PBXGroup;
 			children = (
+				9750F8221A21EF1E00BE5782 /* SystemConfiguration.framework */,
+				9750F8201A21EF1300BE5782 /* Security.framework */,
+				9750F81E1A21EF0600BE5782 /* CFNetwork.framework */,
+				9750F81C1A21EEFA00BE5782 /* libc++.dylib */,
+				9750F81A1A21EEEA00BE5782 /* libicucore.dylib */,
+				9750F8181A21EC7100BE5782 /* Firebase.framework */,
+				979169491A217C1D00F97232 /* CoreLocation.framework */,
+				9791693B1A21691600F97232 /* MapKit.framework */,
 				979169051A21216F00F97232 /* reQuest */,
 				9791691F1A21216F00F97232 /* reQuestTests */,
 				979169041A21216F00F97232 /* Products */,
@@ -85,6 +144,16 @@
 				9791690B1A21216F00F97232 /* AppDelegate.m */,
 				9791690D1A21216F00F97232 /* ViewController.h */,
 				9791690E1A21216F00F97232 /* ViewController.m */,
+				9791692C1A21316000F97232 /* UsersViewController.h */,
+				9791692D1A21316000F97232 /* UsersViewController.m */,
+				9791692F1A21317B00F97232 /* ReQuestViewController.h */,
+				979169301A21317B00F97232 /* ReQuestViewController.m */,
+				979169381A21513600F97232 /* QuestViewController.h */,
+				979169391A21513600F97232 /* QuestViewController.m */,
+				979169351A21474A00F97232 /* Quest.h */,
+				979169361A21474A00F97232 /* Quest.m */,
+				979169321A213DE500F97232 /* QuestCell.h */,
+				979169331A213DE500F97232 /* QuestCell.m */,
 				979169101A21216F00F97232 /* Main.storyboard */,
 				979169131A21216F00F97232 /* Images.xcassets */,
 				979169151A21216F00F97232 /* LaunchScreen.xib */,
@@ -96,6 +165,12 @@
 		979169061A21216F00F97232 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				973E5BE11A223791002BC4FC /* cage.jpg */,
+				973E5BE21A223791002BC4FC /* cageLarge.jpg */,
+				9791693E1A2176FB00F97232 /* mike.jpg */,
+				979169451A21777700F97232 /* vinu.jpg */,
+				979169461A21777700F97232 /* alex.jpg */,
+				9791693F1A2176FB00F97232 /* andrew.jpg */,
 				979169071A21216F00F97232 /* Info.plist */,
 				979169081A21216F00F97232 /* main.m */,
 			);
@@ -168,6 +243,7 @@
 				TargetAttributes = {
 					979169021A21216F00F97232 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = Q246N539F7;
 					};
 					9791691B1A21216F00F97232 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +275,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979169431A2176FB00F97232 /* andrew.jpg in Resources */,
+				979169471A21777700F97232 /* vinu.jpg in Resources */,
 				979169121A21216F00F97232 /* Main.storyboard in Resources */,
+				979169481A21777700F97232 /* alex.jpg in Resources */,
+				979169421A2176FB00F97232 /* mike.jpg in Resources */,
 				979169171A21216F00F97232 /* LaunchScreen.xib in Resources */,
 				979169141A21216F00F97232 /* Images.xcassets in Resources */,
+				973E5BE41A223791002BC4FC /* cageLarge.jpg in Resources */,
+				973E5BE31A223791002BC4FC /* cage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979169311A21317B00F97232 /* ReQuestViewController.m in Sources */,
+				9791693A1A21513600F97232 /* QuestViewController.m in Sources */,
 				9791690F1A21216F00F97232 /* ViewController.m in Sources */,
+				9791692E1A21316000F97232 /* UsersViewController.m in Sources */,
 				9791690C1A21216F00F97232 /* AppDelegate.m in Sources */,
+				979169371A21474A00F97232 /* Quest.m in Sources */,
+				979169341A213DE500F97232 /* QuestCell.m in Sources */,
 				979169091A21216F00F97232 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +432,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vinuilangovan/Downloads,
+				);
 				INFOPLIST_FILE = reQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +451,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vinuilangovan/Downloads,
+				);
 				INFOPLIST_FILE = reQuest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,6 +519,7 @@
 				979169281A21216F00F97232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		979169291A21216F00F97232 /* Build configuration list for PBXNativeTarget "reQuestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +528,7 @@
 				9791692B1A21216F00F97232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
